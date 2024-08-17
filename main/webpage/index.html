@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src='jquery-3.3.1.min.js'></script>
+    <link rel="stylesheet" href="app.css">
+    <script async src="app.js"></script>
+    <title>Smart home sample app</title>
+</head>
+<body>
+<header>
+    <h1>Smart home panel</h1>
+</header>
+
+<div id="Outputs">
+    <label id="label1">Outputs:</label>
+    <div class="buttons">
+		<input type="button" id="out1" value="OUT1" onclick="toggleOUT(1)" />
+		<input type="button" id="out2" value="OUT2" onclick="toggleOUT(2)" />
+		<input type="button" id="out3" value="OUT3" onclick="toggleOUT(3)" />
+		<input type="button" id="out4" value="OUT4" onclick="toggleOUT(4)" />
+    </div>
+  
+</div>
+<hr>
+
+<div id="Inputs">
+    <label id="label1">Inputs:</label>
+	<div class="control-section" id="dynamic-controls">
+		<div class="control" id="control-1">IN1</div>
+		<div class="control" id="control-2">IN2</div>
+		<div class="control" id="control-3">IN3</div>
+		<div class="control" id="control-4">IN4</div>
+	</div>
+
+</div>
+<hr>
+
+</body>
+</html>
