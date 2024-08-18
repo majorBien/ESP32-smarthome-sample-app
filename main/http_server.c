@@ -320,8 +320,7 @@ static esp_err_t http_server_json_handler(httpd_req_t *req)
         buf[total_length] = '\0'; // end with NULL
     } while (ret >= sizeof(buf) - total_length); // continue if neccessary
 
-    ESP_LOGI(TAG, "Received JSON: %s", buf);
-
+    ESP_LOGI(TAG, "Received JSON: %s", buf);             
     // parse JSON
     cJSON *json = cJSON_Parse(buf);
     if (json == NULL) {

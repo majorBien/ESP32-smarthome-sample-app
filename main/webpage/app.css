@@ -50,6 +50,14 @@ h5{
 	color: #1d3557;
 }		
 
+#label2, #label2 {
+	display:inline;
+}
+#label2 {
+	color: #1d1111;
+}		
+
+
 .buttons {
     padding: 5px;
 }
@@ -82,18 +90,18 @@ input[type="button"]:active {
 }
 
 .control {
-    width:  45px; /* Szersze, aby zmieścić tekst */
+    width:  45px; 
     height: 30px;
     border-radius: 50%;
-    background-color: RGBA(106,125,144,0.35); /* Domyślny kolor */
+    background-color: RGBA(106,125,144,0.35); 
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
     margin: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px; /* Rozmiar tekstu */
-    color: white; /* Kolor tekstu */
+    font-size: 16px; 
+    color: white; 
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
 }
@@ -107,3 +115,67 @@ input[type="button"]:active {
     background-color: rgba(30, 144, 255, 0.35);
     box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
 }
+
+
+#inValue1, #inValue1 {
+	display:inline;
+}
+#inValue1 {
+	color: #1d1111;
+}		
+
+
+#inValue2, #inValue2 {
+	display:inline;
+}
+#inValue2 {
+	color: #1d1111;
+}		
+
+
+
+#inValue3, #inValue3 {
+	display:inline;
+}
+#inValue3 {
+	color: #1d1111;
+}		
+
+
+
+#inValue4, #inValue4 {
+	display:inline;
+}
+#inValue4 {
+	color: #1d1111;
+}		
+
+#outValue1, #outValue1 {
+	display:inline;
+}
+#outValue1 {
+	color: #1d1111;
+}		
+
+#outValue2, #outValue2 {
+	display:inline;
+}
+#outValue2 {
+	color: #1d1111;
+}		
+
+#outValue3, #outValue3 {
+	display:inline;
+}
+#outValue3 {
+	color: #1d1111;
+}		
+
+#outValue4, #outValue4 {
+	display:inline;
+}
+#outValue4 {
+	color: #1d1111;
+}		
+
+
